@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File Sharing App</title>
+  <title>Local File Sharing</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>📂 File Sharing</h1>
+    <h1>📂 File Sharing (Local)</h1>
 
     <div class="upload-box" id="drop-area">
       <p>Drag & Drop your file here or</p>
@@ -16,22 +16,13 @@
       <button id="browseBtn">Browse File</button>
     </div>
 
-    <div id="progress" class="hidden">
-      <p>Uploading... <span id="progressValue">0%</span></p>
-      <div class="progress-bar"><div id="progressFill"></div></div>
-    </div>
-
     <div id="linkBox" class="hidden">
-      <p>✅ File Uploaded!</p>
+      <p>✅ File Ready!</p>
       <input type="text" id="fileLink" readonly />
+      <a id="downloadBtn" download>Download</a>
       <button id="copyBtn">Copy Link</button>
-      <button id="deleteBtn">Delete File</button>
     </div>
   </div>
-
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-storage-compat.js"></script>
 
   <script src="upload.js"></script>
 </body>
