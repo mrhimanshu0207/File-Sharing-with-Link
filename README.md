@@ -60,12 +60,6 @@ You can host your app on **GitHub Pages** for free:
 
 ---
 
-## 🖼 Screenshot
-![App Screenshot](https://via.placeholder.com/600x400.png?text=Local+File+Sharing+App)  
-*(Replace with your actual screenshot from your app)*  
-
----
-
 ## 🛠 Technologies Used
 - HTML5  
 - CSS3 (Glassmorphism + Gradient)  
