@@ -56,7 +56,7 @@ You can host your app on **GitHub Pages** for free:
 1. Go to your repository → **Settings → Pages**  
 2. Select **main branch** → `/ (root)` → Save  
 3. Replace this link with your live demo:  
-[🌐 Live Demo Placeholder](https://username.github.io/repo-name)  
+[🌐 Live Demo Placeholder](https://mrhimanshu0207.github.io/File-Sharing-with-Link/)  
 
 ---
 
